@@ -1,0 +1,8 @@
+region                      = "us-east-1"
+nginx_ami_id                = "ami-0be557b0f2fdf3868"
+mongodb_ami_id              = "ami-0462db0f8d05d8090"
+vpc_cidr                    = "10.0.0.0/16"
+nginx_subnet_cidr           = "10.0.1.0/24"
+mongodb_subnet_cidr         = "10.0.2.0/24"
+nginx_availability_zone_1   = "us-east-1a"
+nginx_availability_zone_2   = "us-east-1b"
